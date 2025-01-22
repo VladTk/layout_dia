@@ -1,5 +1,8 @@
 .hero {
   position: relative;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background-color: $c-black;
 
   @include on-laptop {
     height: 680px;

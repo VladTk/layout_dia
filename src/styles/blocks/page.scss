@@ -1,0 +1,7 @@
+.page {
+  background-color: $c-light-grey;
+
+  &__header {
+    @include responsive-property(padding-bottom, 28px, 36px, 0);
+  }
+}

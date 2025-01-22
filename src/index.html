@@ -21,10 +21,10 @@
       defer
     ></script>
   </head>
-  <body>
-    <header class="header">
+  <body class="page">
+    <header class="header page__header">
       <div class="_container">
-        <div class="header__top top-bar">
+        <div class="top-bar">
           <div class="top-bar__logo-menu-wrapper">
             <a
               href="#"
@@ -109,7 +109,10 @@
           </a>
         </div>
       </div>
-      <section class="header__hero hero">
+    </header>
+    <aside class="menu page__menu"></aside>
+    <main class="main-block page__main-block">
+      <section class="main-block__hero hero">
         <div class="_container">
           <div class="hero__content">
             <h1 class="hero__title">Strategic Agency</h1>
@@ -165,9 +168,7 @@
           </div>
         </div>
       </section>
-    </header>
-    <aside class="menu"></aside>
-    <main class="main-block"></main>
-    <footer class="footer"></footer>
+    </main>
+    <footer class="footer page__footer"></footer>
   </body>
 </html>
