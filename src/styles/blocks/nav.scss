@@ -1,0 +1,11 @@
+.nav {
+  &__list {
+    @extend %flex-center;
+
+    column-gap: 48px;
+  }
+
+  &__link {
+    @extend %typography-small-bold;
+  }
+}

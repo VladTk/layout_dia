@@ -1,0 +1,17 @@
+.button {
+  @extend %flex-center;
+
+  border-radius: 8px;
+  background-color: $c-blue;
+  padding-block: 13px;
+  width: 100%;
+
+  color: $c-white;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+
+  @include on-tablet {
+    max-width: 264px;
+  }
+}

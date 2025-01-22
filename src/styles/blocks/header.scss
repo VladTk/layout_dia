@@ -1,0 +1,9 @@
+.header {
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  background-color: $c-black;
+
+  &__top {
+    @include responsive-property(margin-bottom, 28px, 36px, 0);
+  }
+}
