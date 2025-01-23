@@ -1,0 +1,13 @@
+.main-block {
+  &__hero {
+    @include responsive-property(margin-bottom, 120px, 148px);
+  }
+
+  &__about-us {
+    @include responsive-property(margin-bottom, 120px, 148px);
+  }
+
+  &__expertise {
+    @include responsive-property(margin-bottom, 120px, 148px);
+  }
+}
