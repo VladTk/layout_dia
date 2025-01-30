@@ -14,7 +14,14 @@
 
   &__link {
     @extend %flex-center;
-    @extend %typography-small-bold;
+    @extend %typography-small-bold-uppercase;
+    @extend %active-brightness-effect;
+
+    transition: all $transition-duration-base ease-in-out;
+
+    &:hover {
+      color: $c-blue;
+    }
 
     &--underline {
       position: relative;
@@ -22,6 +29,7 @@
       &::after {
         position: absolute;
         bottom: -8px;
+        left: 0;
         border-radius: 4px;
         background-color: $c-blue;
         width: 100%;
